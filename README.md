@@ -45,9 +45,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name:
+### Name:Tella Thrishendra
 
-### Register Number:
+### Register Number:212223230227
 
 ```python
 import torch
@@ -94,8 +94,8 @@ ai_brain = NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.Adam(ai_brain.parameters(), lr=0.001)
 
-# Name:ARANI VENKATA SUNDARA LEELA KRISHNA
-# Register Number:212224240013
+# Name:Tella Thrishendra
+# Register Number:212223230227
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
   for epoch in range(epochs):
         optimizer.zero_grad()
